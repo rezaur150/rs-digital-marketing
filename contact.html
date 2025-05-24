@@ -1,0 +1,134 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - RS Digital Marketing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #0b3d91;
+      line-height: 1.6;
+    }
+    header {
+      background: #0b3d91;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      user-select: none;
+    }
+    nav {
+      background: #09417b;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 0 20px 40px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #0b3d91;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 2px solid #0b3d91;
+      border-radius: 4px;
+      font-size: 1rem;
+      resize: vertical;
+    }
+    button {
+      background: #0b3d91;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #09417b;
+    }
+    .contact-info {
+      margin-top: 30px;
+      font-size: 1.1rem;
+    }
+    .contact-info p {
+      margin: 8px 0;
+    }
+    a.contact-link {
+      color: #0b3d91;
+      text-decoration: none;
+    }
+    a.contact-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>Contact Us</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+  <h2>Get In Touch</h2>
+  <form action="mailto:rezaur874@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Name *</label>
+    <input type="text" id="name" name="Name" required />
+
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="Email" required />
+
+    <label for="message">Message *</label>
+    <textarea id="message" name="Message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <p><strong>Email:</strong> <a href="mailto:rezaur874@gmail.com" class="contact-link">rezaur874@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+01842702810" class="contact-link">01842702810</a></p>
+    <p><strong>Address:</strong> Gunaboti, Chouddagram, Cumilla</p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/194LPJAHec/" target="_blank" rel="noopener noreferrer" class="contact-link">RS Digital Marketing Facebook</a></p>
+  </div>
+</main>
+
+</body>
+</html>
